@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_933c12ba7c92b20c4156d38f016a376c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_933c12ba7c92b20c4156d38f016a376c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_933c12ba7c92b20c4156d38f016a376c = L.map(
+                "map_933c12ba7c92b20c4156d38f016a376c",
+                {
+                    center: [4.5709, -74.2973],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cd4884de00c1be3453242a7a090417a5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_933c12ba7c92b20c4156d38f016a376c);
+        
+    
+            var feature_group_447822b3cf6a14ef0df3dcdf11707d64 = L.featureGroup(
+                {}
+            ).addTo(map_933c12ba7c92b20c4156d38f016a376c);
+        
+    
+            var circle_marker_642223f8e5999f3f72123ee46b2e3a2e = L.circleMarker(
+                [4.53389, -75.68111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_c9dd83d89791e024afce07c46fffa594 = L.popup({"maxWidth": 250});
+
+        
+            var html_90f14e5f392b505b87b562a93048f6c3 = $(`<div id="html_90f14e5f392b505b87b562a93048f6c3" style="width: 100.0%; height: 100.0%;"><b>Armenia</b><br>Ingresos: $4,615,700<br>Calificación: 3.36</div>`)[0];
+            popup_c9dd83d89791e024afce07c46fffa594.setContent(html_90f14e5f392b505b87b562a93048f6c3);
+        
+
+        circle_marker_642223f8e5999f3f72123ee46b2e3a2e.bindPopup(popup_c9dd83d89791e024afce07c46fffa594)
+        ;
+
+        
+    
+    
+            var circle_marker_545c2a29edbb5785ce989688eb69a9ca = L.circleMarker(
+                [10.96854, -74.78132],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_39ca60b9735a67cce57604d8fdafc58e = L.popup({"maxWidth": 250});
+
+        
+            var html_0c329667ddc26a5657fa6ec56f17ceee = $(`<div id="html_0c329667ddc26a5657fa6ec56f17ceee" style="width: 100.0%; height: 100.0%;"><b>Barranquilla</b><br>Ingresos: $32,907,700<br>Calificación: 3.57</div>`)[0];
+            popup_39ca60b9735a67cce57604d8fdafc58e.setContent(html_0c329667ddc26a5657fa6ec56f17ceee);
+        
+
+        circle_marker_545c2a29edbb5785ce989688eb69a9ca.bindPopup(popup_39ca60b9735a67cce57604d8fdafc58e)
+        ;
+
+        
+    
+    
+            var circle_marker_44deb07ede2b4a60c4ac1b6a9eb9bdc8 = L.circleMarker(
+                [4.60971, -74.08175],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_255cd82abbc94fa55a704a32c1cab88d = L.popup({"maxWidth": 250});
+
+        
+            var html_cd43395e445b2dfe8feea8cbdb622df5 = $(`<div id="html_cd43395e445b2dfe8feea8cbdb622df5" style="width: 100.0%; height: 100.0%;"><b>Bogotá</b><br>Ingresos: $440,005,000<br>Calificación: 4.09</div>`)[0];
+            popup_255cd82abbc94fa55a704a32c1cab88d.setContent(html_cd43395e445b2dfe8feea8cbdb622df5);
+        
+
+        circle_marker_44deb07ede2b4a60c4ac1b6a9eb9bdc8.bindPopup(popup_255cd82abbc94fa55a704a32c1cab88d)
+        ;
+
+        
+    
+    
+            var circle_marker_0d01c8ffc0fd8167fc6a62d27c7fb7bb = L.circleMarker(
+                [7.12539, -73.1198],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_e7477389864c77fa987f8b8cbc191f4c = L.popup({"maxWidth": 250});
+
+        
+            var html_ae8cd5f01721257aff02798f53507d6f = $(`<div id="html_ae8cd5f01721257aff02798f53507d6f" style="width: 100.0%; height: 100.0%;"><b>Bucaramanga</b><br>Ingresos: $17,579,200<br>Calificación: 4.39</div>`)[0];
+            popup_e7477389864c77fa987f8b8cbc191f4c.setContent(html_ae8cd5f01721257aff02798f53507d6f);
+        
+
+        circle_marker_0d01c8ffc0fd8167fc6a62d27c7fb7bb.bindPopup(popup_e7477389864c77fa987f8b8cbc191f4c)
+        ;
+
+        
+    
+    
+            var circle_marker_44d0c96df461b2c0ab38814496451575 = L.circleMarker(
+                [3.43722, -76.5225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_8f2a1913e31a1e05955806110390ae18 = L.popup({"maxWidth": 250});
+
+        
+            var html_27affa8bb22f758ca452dafadc8f92a7 = $(`<div id="html_27affa8bb22f758ca452dafadc8f92a7" style="width: 100.0%; height: 100.0%;"><b>Cali</b><br>Ingresos: $154,493,700<br>Calificación: 3.99</div>`)[0];
+            popup_8f2a1913e31a1e05955806110390ae18.setContent(html_27affa8bb22f758ca452dafadc8f92a7);
+        
+
+        circle_marker_44d0c96df461b2c0ab38814496451575.bindPopup(popup_8f2a1913e31a1e05955806110390ae18)
+        ;
+
+        
+    
+    
+            var circle_marker_a30abe786f0e14b6783fa63880ff41e3 = L.circleMarker(
+                [10.39972, -75.51444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_c4126afb212163ba92f9c76ca4dae4ff = L.popup({"maxWidth": 250});
+
+        
+            var html_d834fe98f6b89c6239abc86f656b24ce = $(`<div id="html_d834fe98f6b89c6239abc86f656b24ce" style="width: 100.0%; height: 100.0%;"><b>Cartagena</b><br>Ingresos: $22,296,700<br>Calificación: 4.04</div>`)[0];
+            popup_c4126afb212163ba92f9c76ca4dae4ff.setContent(html_d834fe98f6b89c6239abc86f656b24ce);
+        
+
+        circle_marker_a30abe786f0e14b6783fa63880ff41e3.bindPopup(popup_c4126afb212163ba92f9c76ca4dae4ff)
+        ;
+
+        
+    
+    
+            var circle_marker_8892c7d3798be5b128d450424570f65a = L.circleMarker(
+                [7.89391, -72.50782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_2c4d4ace9f74f4bdde23abb05977e3ea = L.popup({"maxWidth": 250});
+
+        
+            var html_eb0179b233f06797d8a57d0066233d99 = $(`<div id="html_eb0179b233f06797d8a57d0066233d99" style="width: 100.0%; height: 100.0%;"><b>Cúcuta</b><br>Ingresos: $37,879,500<br>Calificación: 3.88</div>`)[0];
+            popup_2c4d4ace9f74f4bdde23abb05977e3ea.setContent(html_eb0179b233f06797d8a57d0066233d99);
+        
+
+        circle_marker_8892c7d3798be5b128d450424570f65a.bindPopup(popup_2c4d4ace9f74f4bdde23abb05977e3ea)
+        ;
+
+        
+    
+    
+            var circle_marker_d5989f90000195ed8230db2903699aba = L.circleMarker(
+                [3.8653, -67.9239],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_a62dc15d774a8fe737495b0f1713366a = L.popup({"maxWidth": 250});
+
+        
+            var html_168e4e6b02c0c90cb1b276c901d434da = $(`<div id="html_168e4e6b02c0c90cb1b276c901d434da" style="width: 100.0%; height: 100.0%;"><b>Inírida</b><br>Ingresos: $2,722,500<br>Calificación: 4.00</div>`)[0];
+            popup_a62dc15d774a8fe737495b0f1713366a.setContent(html_168e4e6b02c0c90cb1b276c901d434da);
+        
+
+        circle_marker_d5989f90000195ed8230db2903699aba.bindPopup(popup_a62dc15d774a8fe737495b0f1713366a)
+        ;
+
+        
+    
+    
+            var circle_marker_35b59357df0aa866ee9ff17f67aa322d = L.circleMarker(
+                [-4.21528, -69.94056],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_866a4f9ae129de5acafd06128a151df2 = L.popup({"maxWidth": 250});
+
+        
+            var html_6d20752ff82770c22be70e0fd608b071 = $(`<div id="html_6d20752ff82770c22be70e0fd608b071" style="width: 100.0%; height: 100.0%;"><b>Leticia</b><br>Ingresos: $14,669,800<br>Calificación: 4.16</div>`)[0];
+            popup_866a4f9ae129de5acafd06128a151df2.setContent(html_6d20752ff82770c22be70e0fd608b071);
+        
+
+        circle_marker_35b59357df0aa866ee9ff17f67aa322d.bindPopup(popup_866a4f9ae129de5acafd06128a151df2)
+        ;
+
+        
+    
+    
+            var circle_marker_90ed7ecf1661b703ee12d044c6b905c3 = L.circleMarker(
+                [5.06889, -75.51738],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_07ce6091569678db7f904f673894918f = L.popup({"maxWidth": 250});
+
+        
+            var html_2517bde38b692c76074ec874f7bdbe67 = $(`<div id="html_2517bde38b692c76074ec874f7bdbe67" style="width: 100.0%; height: 100.0%;"><b>Manizales</b><br>Ingresos: $8,027,600<br>Calificación: 3.80</div>`)[0];
+            popup_07ce6091569678db7f904f673894918f.setContent(html_2517bde38b692c76074ec874f7bdbe67);
+        
+
+        circle_marker_90ed7ecf1661b703ee12d044c6b905c3.bindPopup(popup_07ce6091569678db7f904f673894918f)
+        ;
+
+        
+    
+    
+            var circle_marker_050cfad89dd5567332e1e8488f2c091f = L.circleMarker(
+                [6.25184, -75.56359],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_6db4ca926e2c118441c0738d5059d24f = L.popup({"maxWidth": 250});
+
+        
+            var html_9e2c2bff97d53957a14397558ea2fb9f = $(`<div id="html_9e2c2bff97d53957a14397558ea2fb9f" style="width: 100.0%; height: 100.0%;"><b>Medellín</b><br>Ingresos: $296,858,100<br>Calificación: 3.87</div>`)[0];
+            popup_6db4ca926e2c118441c0738d5059d24f.setContent(html_9e2c2bff97d53957a14397558ea2fb9f);
+        
+
+        circle_marker_050cfad89dd5567332e1e8488f2c091f.bindPopup(popup_6db4ca926e2c118441c0738d5059d24f)
+        ;
+
+        
+    
+    
+            var circle_marker_8317aa23e2dc12efd932aa037d7764b1 = L.circleMarker(
+                [2.9273000000000002, -75.28189],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_2e80616d4348a87325c3423bdbdd3405 = L.popup({"maxWidth": 250});
+
+        
+            var html_ff7e36e5708d3248c2effa0d75c96e89 = $(`<div id="html_ff7e36e5708d3248c2effa0d75c96e89" style="width: 100.0%; height: 100.0%;"><b>Neiva</b><br>Ingresos: $3,494,000<br>Calificación: 4.50</div>`)[0];
+            popup_2e80616d4348a87325c3423bdbdd3405.setContent(html_ff7e36e5708d3248c2effa0d75c96e89);
+        
+
+        circle_marker_8317aa23e2dc12efd932aa037d7764b1.bindPopup(popup_2e80616d4348a87325c3423bdbdd3405)
+        ;
+
+        
+    
+    
+            var circle_marker_1521f62ac6dde9596ba88be2bff55438 = L.circleMarker(
+                [1.21361, -77.28111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_190961773d9a87c1d622ac386665b104 = L.popup({"maxWidth": 250});
+
+        
+            var html_5e55a9868f5c5336fa74fa00f1b7b177 = $(`<div id="html_5e55a9868f5c5336fa74fa00f1b7b177" style="width: 100.0%; height: 100.0%;"><b>Pasto</b><br>Ingresos: $14,996,400<br>Calificación: 4.04</div>`)[0];
+            popup_190961773d9a87c1d622ac386665b104.setContent(html_5e55a9868f5c5336fa74fa00f1b7b177);
+        
+
+        circle_marker_1521f62ac6dde9596ba88be2bff55438.bindPopup(popup_190961773d9a87c1d622ac386665b104)
+        ;
+
+        
+    
+    
+            var circle_marker_15a06816c1bf9a474c1227da5c04d5db = L.circleMarker(
+                [4.81333, -75.69611],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_2cc7ea326162fdb75ca597ecc227ed49 = L.popup({"maxWidth": 250});
+
+        
+            var html_2533a0db026921242debf3ecc9135fdf = $(`<div id="html_2533a0db026921242debf3ecc9135fdf" style="width: 100.0%; height: 100.0%;"><b>Pereira</b><br>Ingresos: $56,214,300<br>Calificación: 3.95</div>`)[0];
+            popup_2cc7ea326162fdb75ca597ecc227ed49.setContent(html_2533a0db026921242debf3ecc9135fdf);
+        
+
+        circle_marker_15a06816c1bf9a474c1227da5c04d5db.bindPopup(popup_2cc7ea326162fdb75ca597ecc227ed49)
+        ;
+
+        
+    
+    
+            var circle_marker_2a1d7c7f9f6e2419500e19d589a31362 = L.circleMarker(
+                [11.54444, -72.90722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_5a5dca420f29781f95d5d456efc2b6f5 = L.popup({"maxWidth": 250});
+
+        
+            var html_28f7f4ebc9b7f00bbbee7c123dfbdb13 = $(`<div id="html_28f7f4ebc9b7f00bbbee7c123dfbdb13" style="width: 100.0%; height: 100.0%;"><b>Riohacha</b><br>Ingresos: $18,512,700<br>Calificación: 3.45</div>`)[0];
+            popup_5a5dca420f29781f95d5d456efc2b6f5.setContent(html_28f7f4ebc9b7f00bbbee7c123dfbdb13);
+        
+
+        circle_marker_2a1d7c7f9f6e2419500e19d589a31362.bindPopup(popup_5a5dca420f29781f95d5d456efc2b6f5)
+        ;
+
+        
+    
+    
+            var circle_marker_0039c7fb9a5b5afdf389fe7794772a85 = L.circleMarker(
+                [11.24079, -74.19904],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_36844fd3fe4e21bfdeade6ae627e9ed8 = L.popup({"maxWidth": 250});
+
+        
+            var html_301d90c04023c8c233bc9ad194afdcb1 = $(`<div id="html_301d90c04023c8c233bc9ad194afdcb1" style="width: 100.0%; height: 100.0%;"><b>Santa Marta</b><br>Ingresos: $13,198,300<br>Calificación: 3.75</div>`)[0];
+            popup_36844fd3fe4e21bfdeade6ae627e9ed8.setContent(html_301d90c04023c8c233bc9ad194afdcb1);
+        
+
+        circle_marker_0039c7fb9a5b5afdf389fe7794772a85.bindPopup(popup_36844fd3fe4e21bfdeade6ae627e9ed8)
+        ;
+
+        
+    
+    
+            var circle_marker_cdbdf4bb8c2867c89b846c235d3c2afb = L.circleMarker(
+                [4.57937, -74.21682],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_6000b8edf590991b541fcb0d844925c3 = L.popup({"maxWidth": 250});
+
+        
+            var html_5b0698b1ecc6a789349c024613d411e3 = $(`<div id="html_5b0698b1ecc6a789349c024613d411e3" style="width: 100.0%; height: 100.0%;"><b>Soacha</b><br>Ingresos: $4,126,000<br>Calificación: 4.60</div>`)[0];
+            popup_6000b8edf590991b541fcb0d844925c3.setContent(html_5b0698b1ecc6a789349c024613d411e3);
+        
+
+        circle_marker_cdbdf4bb8c2867c89b846c235d3c2afb.bindPopup(popup_6000b8edf590991b541fcb0d844925c3)
+        ;
+
+        
+    
+    
+            var circle_marker_da8d8d1fd49fb2c98b90eb8f74b9a590 = L.circleMarker(
+                [10.46314, -73.25322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_da76fda750726686828eac82de97c175 = L.popup({"maxWidth": 250});
+
+        
+            var html_1d2612551831fe2055924ebacd4fa581 = $(`<div id="html_1d2612551831fe2055924ebacd4fa581" style="width: 100.0%; height: 100.0%;"><b>Valledupar</b><br>Ingresos: $1,121,300<br>Calificación: 2.67</div>`)[0];
+            popup_da76fda750726686828eac82de97c175.setContent(html_1d2612551831fe2055924ebacd4fa581);
+        
+
+        circle_marker_da8d8d1fd49fb2c98b90eb8f74b9a590.bindPopup(popup_da76fda750726686828eac82de97c175)
+        ;
+
+        
+    
+    
+            var circle_marker_dcee15712cd1cae39132927e867bb1f8 = L.circleMarker(
+                [4.142, -73.62664],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_447822b3cf6a14ef0df3dcdf11707d64);
+        
+    
+        var popup_6136b68e7cf395928444586f89b6f3e2 = L.popup({"maxWidth": 250});
+
+        
+            var html_9d28ba3b421dd34005ba48eda7fe66bf = $(`<div id="html_9d28ba3b421dd34005ba48eda7fe66bf" style="width: 100.0%; height: 100.0%;"><b>Villavicencio</b><br>Ingresos: $7,161,900<br>Calificación: 4.09</div>`)[0];
+            popup_6136b68e7cf395928444586f89b6f3e2.setContent(html_9d28ba3b421dd34005ba48eda7fe66bf);
+        
+
+        circle_marker_dcee15712cd1cae39132927e867bb1f8.bindPopup(popup_6136b68e7cf395928444586f89b6f3e2)
+        ;
+
+        
+    
+    
+            var feature_group_055f5abc38011118f49d7b83d39c6bc5 = L.featureGroup(
+                {}
+            ).addTo(map_933c12ba7c92b20c4156d38f016a376c);
+        
+    
+            var circle_marker_18d381c2e59317df149eb9c1dcf96d57 = L.circleMarker(
+                [4.53389, -75.68111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_9d4a09d46ca8f540bdebd641b2393e8e = L.popup({"maxWidth": 250});
+
+        
+            var html_edc6f455b9337f54a1603dc41bbbe11c = $(`<div id="html_edc6f455b9337f54a1603dc41bbbe11c" style="width: 100.0%; height: 100.0%;"><b>Armenia</b><br>Ingresos: $3,363,200<br>Calificación: 4.00</div>`)[0];
+            popup_9d4a09d46ca8f540bdebd641b2393e8e.setContent(html_edc6f455b9337f54a1603dc41bbbe11c);
+        
+
+        circle_marker_18d381c2e59317df149eb9c1dcf96d57.bindPopup(popup_9d4a09d46ca8f540bdebd641b2393e8e)
+        ;
+
+        
+    
+    
+            var circle_marker_313ed724448863c4979183b7774b615b = L.circleMarker(
+                [10.96854, -74.78132],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_e34d9b3c2415fcf5ca949dcf64854a5c = L.popup({"maxWidth": 250});
+
+        
+            var html_3701ba17d772e470ea9066a7e9d8a242 = $(`<div id="html_3701ba17d772e470ea9066a7e9d8a242" style="width: 100.0%; height: 100.0%;"><b>Barranquilla</b><br>Ingresos: $27,741,300<br>Calificación: 3.72</div>`)[0];
+            popup_e34d9b3c2415fcf5ca949dcf64854a5c.setContent(html_3701ba17d772e470ea9066a7e9d8a242);
+        
+
+        circle_marker_313ed724448863c4979183b7774b615b.bindPopup(popup_e34d9b3c2415fcf5ca949dcf64854a5c)
+        ;
+
+        
+    
+    
+            var circle_marker_0e4f8a7cfe6fa9fe671b49c999f202b4 = L.circleMarker(
+                [4.60971, -74.08175],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_ceb893d3179ef9090a1026cada9a72b8 = L.popup({"maxWidth": 250});
+
+        
+            var html_bedbea2ec4b261824c4f00b458db189b = $(`<div id="html_bedbea2ec4b261824c4f00b458db189b" style="width: 100.0%; height: 100.0%;"><b>Bogotá</b><br>Ingresos: $479,959,200<br>Calificación: 4.14</div>`)[0];
+            popup_ceb893d3179ef9090a1026cada9a72b8.setContent(html_bedbea2ec4b261824c4f00b458db189b);
+        
+
+        circle_marker_0e4f8a7cfe6fa9fe671b49c999f202b4.bindPopup(popup_ceb893d3179ef9090a1026cada9a72b8)
+        ;
+
+        
+    
+    
+            var circle_marker_a172e76595b80cc7eff61c79c5e86a98 = L.circleMarker(
+                [7.1253899999999994, -73.1198],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_fe4fe791ed884780b6b1ac6099e938a3 = L.popup({"maxWidth": 250});
+
+        
+            var html_c31bbc9da4cdfbf65c3aae7ecec533f9 = $(`<div id="html_c31bbc9da4cdfbf65c3aae7ecec533f9" style="width: 100.0%; height: 100.0%;"><b>Bucaramanga</b><br>Ingresos: $23,895,600<br>Calificación: 3.58</div>`)[0];
+            popup_fe4fe791ed884780b6b1ac6099e938a3.setContent(html_c31bbc9da4cdfbf65c3aae7ecec533f9);
+        
+
+        circle_marker_a172e76595b80cc7eff61c79c5e86a98.bindPopup(popup_fe4fe791ed884780b6b1ac6099e938a3)
+        ;
+
+        
+    
+    
+            var circle_marker_465e9c1003ef06893920d7a869b6d582 = L.circleMarker(
+                [3.4372199999999995, -76.5225],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_eef655bf348447effcb1bb488310a14a = L.popup({"maxWidth": 250});
+
+        
+            var html_565b19abbc73b0b0a77a2edac4ae8043 = $(`<div id="html_565b19abbc73b0b0a77a2edac4ae8043" style="width: 100.0%; height: 100.0%;"><b>Cali</b><br>Ingresos: $118,257,600<br>Calificación: 4.25</div>`)[0];
+            popup_eef655bf348447effcb1bb488310a14a.setContent(html_565b19abbc73b0b0a77a2edac4ae8043);
+        
+
+        circle_marker_465e9c1003ef06893920d7a869b6d582.bindPopup(popup_eef655bf348447effcb1bb488310a14a)
+        ;
+
+        
+    
+    
+            var circle_marker_ec424dd613eb61e38941e6345f44d7dc = L.circleMarker(
+                [10.39972, -75.51444],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_d0a09aedcf039289c98d6f94e6311b3e = L.popup({"maxWidth": 250});
+
+        
+            var html_c495d52c7561c7c1b0cbdee96214c6b6 = $(`<div id="html_c495d52c7561c7c1b0cbdee96214c6b6" style="width: 100.0%; height: 100.0%;"><b>Cartagena</b><br>Ingresos: $21,548,300<br>Calificación: 4.03</div>`)[0];
+            popup_d0a09aedcf039289c98d6f94e6311b3e.setContent(html_c495d52c7561c7c1b0cbdee96214c6b6);
+        
+
+        circle_marker_ec424dd613eb61e38941e6345f44d7dc.bindPopup(popup_d0a09aedcf039289c98d6f94e6311b3e)
+        ;
+
+        
+    
+    
+            var circle_marker_6aa63914bd5ad9d2aa8e2290b521b8ff = L.circleMarker(
+                [7.893909999999999, -72.50782],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_1654cbbc6ea93894f2b7a56b2de9363c = L.popup({"maxWidth": 250});
+
+        
+            var html_a31c77ff8b411fbb387c04651d2154ff = $(`<div id="html_a31c77ff8b411fbb387c04651d2154ff" style="width: 100.0%; height: 100.0%;"><b>Cúcuta</b><br>Ingresos: $28,991,500<br>Calificación: 3.98</div>`)[0];
+            popup_1654cbbc6ea93894f2b7a56b2de9363c.setContent(html_a31c77ff8b411fbb387c04651d2154ff);
+        
+
+        circle_marker_6aa63914bd5ad9d2aa8e2290b521b8ff.bindPopup(popup_1654cbbc6ea93894f2b7a56b2de9363c)
+        ;
+
+        
+    
+    
+            var circle_marker_4eb6f5f09c85620cc4724fbd4e8ee66b = L.circleMarker(
+                [3.8653, -67.9239],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_d688d96f416094d628836eb97a718b4c = L.popup({"maxWidth": 250});
+
+        
+            var html_66a24cc4e543984388c6e18cbf8fc589 = $(`<div id="html_66a24cc4e543984388c6e18cbf8fc589" style="width: 100.0%; height: 100.0%;"><b>Inírida</b><br>Ingresos: $2,504,600<br>Calificación: 2.50</div>`)[0];
+            popup_d688d96f416094d628836eb97a718b4c.setContent(html_66a24cc4e543984388c6e18cbf8fc589);
+        
+
+        circle_marker_4eb6f5f09c85620cc4724fbd4e8ee66b.bindPopup(popup_d688d96f416094d628836eb97a718b4c)
+        ;
+
+        
+    
+    
+            var circle_marker_7c27681921ba41384b92a6dcae8d6b8b = L.circleMarker(
+                [-4.21528, -69.94056],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_66f9f7374994aa1029dc9121f9c0d117 = L.popup({"maxWidth": 250});
+
+        
+            var html_19712de673b48672b7cc8ff555c3b780 = $(`<div id="html_19712de673b48672b7cc8ff555c3b780" style="width: 100.0%; height: 100.0%;"><b>Leticia</b><br>Ingresos: $16,159,000<br>Calificación: 4.00</div>`)[0];
+            popup_66f9f7374994aa1029dc9121f9c0d117.setContent(html_19712de673b48672b7cc8ff555c3b780);
+        
+
+        circle_marker_7c27681921ba41384b92a6dcae8d6b8b.bindPopup(popup_66f9f7374994aa1029dc9121f9c0d117)
+        ;
+
+        
+    
+    
+            var circle_marker_c3cacb31d014659d113c340f8ff759fa = L.circleMarker(
+                [5.06889, -75.51738],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_fb4f124eddb2b08f31adaeebc756b412 = L.popup({"maxWidth": 250});
+
+        
+            var html_05e55f15f1effa17608a25aec7594f2c = $(`<div id="html_05e55f15f1effa17608a25aec7594f2c" style="width: 100.0%; height: 100.0%;"><b>Manizales</b><br>Ingresos: $3,539,900<br>Calificación: 3.77</div>`)[0];
+            popup_fb4f124eddb2b08f31adaeebc756b412.setContent(html_05e55f15f1effa17608a25aec7594f2c);
+        
+
+        circle_marker_c3cacb31d014659d113c340f8ff759fa.bindPopup(popup_fb4f124eddb2b08f31adaeebc756b412)
+        ;
+
+        
+    
+    
+            var circle_marker_44fc2d1479b8967b62d6d00c66c06dff = L.circleMarker(
+                [6.25184, -75.56359],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_e34901969baf6a26ed1ff4e0143a4e96 = L.popup({"maxWidth": 250});
+
+        
+            var html_c8cea33d67e96d4ba266561296ccbc01 = $(`<div id="html_c8cea33d67e96d4ba266561296ccbc01" style="width: 100.0%; height: 100.0%;"><b>Medellín</b><br>Ingresos: $297,246,700<br>Calificación: 3.92</div>`)[0];
+            popup_e34901969baf6a26ed1ff4e0143a4e96.setContent(html_c8cea33d67e96d4ba266561296ccbc01);
+        
+
+        circle_marker_44fc2d1479b8967b62d6d00c66c06dff.bindPopup(popup_e34901969baf6a26ed1ff4e0143a4e96)
+        ;
+
+        
+    
+    
+            var circle_marker_3f7bedb406252fdc0c7f2629466a4aad = L.circleMarker(
+                [2.9273000000000002, -75.28189],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_62815f0dcf8e33dc5b18842d82b0ef03 = L.popup({"maxWidth": 250});
+
+        
+            var html_21353ad1ff4ad099907cd997fe934d03 = $(`<div id="html_21353ad1ff4ad099907cd997fe934d03" style="width: 100.0%; height: 100.0%;"><b>Neiva</b><br>Ingresos: $3,839,400<br>Calificación: 4.33</div>`)[0];
+            popup_62815f0dcf8e33dc5b18842d82b0ef03.setContent(html_21353ad1ff4ad099907cd997fe934d03);
+        
+
+        circle_marker_3f7bedb406252fdc0c7f2629466a4aad.bindPopup(popup_62815f0dcf8e33dc5b18842d82b0ef03)
+        ;
+
+        
+    
+    
+            var circle_marker_0b564f6e48b8e130822d7849ffd312a4 = L.circleMarker(
+                [1.21361, -77.28111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_13a1661be5296b5587bec42b95877f63 = L.popup({"maxWidth": 250});
+
+        
+            var html_89513ecdc5b363ecd36ae0e8887d881d = $(`<div id="html_89513ecdc5b363ecd36ae0e8887d881d" style="width: 100.0%; height: 100.0%;"><b>Pasto</b><br>Ingresos: $12,800,100<br>Calificación: 4.28</div>`)[0];
+            popup_13a1661be5296b5587bec42b95877f63.setContent(html_89513ecdc5b363ecd36ae0e8887d881d);
+        
+
+        circle_marker_0b564f6e48b8e130822d7849ffd312a4.bindPopup(popup_13a1661be5296b5587bec42b95877f63)
+        ;
+
+        
+    
+    
+            var circle_marker_10239a2f4ddbefb4cd8ad429dcb7d90e = L.circleMarker(
+                [4.81333, -75.69611],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_bfb6be44ff11cf755f07602e9c5484e9 = L.popup({"maxWidth": 250});
+
+        
+            var html_dd75dfb712aff81c684389b054e99c14 = $(`<div id="html_dd75dfb712aff81c684389b054e99c14" style="width: 100.0%; height: 100.0%;"><b>Pereira</b><br>Ingresos: $43,073,800<br>Calificación: 3.95</div>`)[0];
+            popup_bfb6be44ff11cf755f07602e9c5484e9.setContent(html_dd75dfb712aff81c684389b054e99c14);
+        
+
+        circle_marker_10239a2f4ddbefb4cd8ad429dcb7d90e.bindPopup(popup_bfb6be44ff11cf755f07602e9c5484e9)
+        ;
+
+        
+    
+    
+            var circle_marker_935e2b946d98df8924f110108ea1d715 = L.circleMarker(
+                [11.54444, -72.90722],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_1339bf888fc403a99fdfc4105f0cfd41 = L.popup({"maxWidth": 250});
+
+        
+            var html_0e23d7247838b1f45fc983729b6779bc = $(`<div id="html_0e23d7247838b1f45fc983729b6779bc" style="width: 100.0%; height: 100.0%;"><b>Riohacha</b><br>Ingresos: $12,656,400<br>Calificación: 4.29</div>`)[0];
+            popup_1339bf888fc403a99fdfc4105f0cfd41.setContent(html_0e23d7247838b1f45fc983729b6779bc);
+        
+
+        circle_marker_935e2b946d98df8924f110108ea1d715.bindPopup(popup_1339bf888fc403a99fdfc4105f0cfd41)
+        ;
+
+        
+    
+    
+            var circle_marker_2818b73d71c50241e008a85b204dd49e = L.circleMarker(
+                [11.24079, -74.19904],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_c590abd72233d795e0941325b6c4b89e = L.popup({"maxWidth": 250});
+
+        
+            var html_884a882f1b914efa6750dd6433ce2ae0 = $(`<div id="html_884a882f1b914efa6750dd6433ce2ae0" style="width: 100.0%; height: 100.0%;"><b>Santa Marta</b><br>Ingresos: $13,829,300<br>Calificación: 3.65</div>`)[0];
+            popup_c590abd72233d795e0941325b6c4b89e.setContent(html_884a882f1b914efa6750dd6433ce2ae0);
+        
+
+        circle_marker_2818b73d71c50241e008a85b204dd49e.bindPopup(popup_c590abd72233d795e0941325b6c4b89e)
+        ;
+
+        
+    
+    
+            var circle_marker_bd1325de4503b8ebb297d86cdc1ad127 = L.circleMarker(
+                [4.57937, -74.21682],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_6576bc1020f6326541c63a4bd51e785b = L.popup({"maxWidth": 250});
+
+        
+            var html_cc4453bd5cfaed455336ea539cac3563 = $(`<div id="html_cc4453bd5cfaed455336ea539cac3563" style="width: 100.0%; height: 100.0%;"><b>Soacha</b><br>Ingresos: $2,240,700<br>Calificación: 2.25</div>`)[0];
+            popup_6576bc1020f6326541c63a4bd51e785b.setContent(html_cc4453bd5cfaed455336ea539cac3563);
+        
+
+        circle_marker_bd1325de4503b8ebb297d86cdc1ad127.bindPopup(popup_6576bc1020f6326541c63a4bd51e785b)
+        ;
+
+        
+    
+    
+            var circle_marker_22b61aa38548867bb5932b5743ad663d = L.circleMarker(
+                [10.46314, -73.25322],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_36e6cffe4ceea487c144cc0cb2b2bd9d = L.popup({"maxWidth": 250});
+
+        
+            var html_4bf7e7558daa927006b0bc29b4fd17be = $(`<div id="html_4bf7e7558daa927006b0bc29b4fd17be" style="width: 100.0%; height: 100.0%;"><b>Valledupar</b><br>Ingresos: $1,099,800<br>Calificación: 4.75</div>`)[0];
+            popup_36e6cffe4ceea487c144cc0cb2b2bd9d.setContent(html_4bf7e7558daa927006b0bc29b4fd17be);
+        
+
+        circle_marker_22b61aa38548867bb5932b5743ad663d.bindPopup(popup_36e6cffe4ceea487c144cc0cb2b2bd9d)
+        ;
+
+        
+    
+    
+            var circle_marker_e991403b6a116335ea9d06628eecb9ce = L.circleMarker(
+                [4.142, -73.62664],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_055f5abc38011118f49d7b83d39c6bc5);
+        
+    
+        var popup_cde5abb0747c7991693419bebfae2a6b = L.popup({"maxWidth": 250});
+
+        
+            var html_eb91b7890ac5711d113c51be1acbe59e = $(`<div id="html_eb91b7890ac5711d113c51be1acbe59e" style="width: 100.0%; height: 100.0%;"><b>Villavicencio</b><br>Ingresos: $3,597,100<br>Calificación: 3.83</div>`)[0];
+            popup_cde5abb0747c7991693419bebfae2a6b.setContent(html_eb91b7890ac5711d113c51be1acbe59e);
+        
+
+        circle_marker_e991403b6a116335ea9d06628eecb9ce.bindPopup(popup_cde5abb0747c7991693419bebfae2a6b)
+        ;
+
+        
+    
+    
+            var feature_group_f921f4f37cab20584693650638aeeabe = L.featureGroup(
+                {}
+            ).addTo(map_933c12ba7c92b20c4156d38f016a376c);
+        
+    
+            var circle_marker_03e0f80219b11e5f5a2a543f58000147 = L.circleMarker(
+                [4.53389, -75.68111],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_77c27ef5c05027d498e7d76efa66265c = L.popup({"maxWidth": 250});
+
+        
+            var html_50bfa68e3f02d0de7c7ea63665392cbb = $(`<div id="html_50bfa68e3f02d0de7c7ea63665392cbb" style="width: 100.0%; height: 100.0%;"><b>Armenia</b><br>Ingresos: $3,980,300<br>Calificación: 3.57</div>`)[0];
+            popup_77c27ef5c05027d498e7d76efa66265c.setContent(html_50bfa68e3f02d0de7c7ea63665392cbb);
+        
+
+        circle_marker_03e0f80219b11e5f5a2a543f58000147.bindPopup(popup_77c27ef5c05027d498e7d76efa66265c)
+        ;
+
+        
+    
+    
+            var circle_marker_b888ac1dc313f6458c06037039ed5114 = L.circleMarker(
+                [10.96854, -74.78132],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_57e209d174f001e6bc9d04188575ac17 = L.popup({"maxWidth": 250});
+
+        
+            var html_69eb02493d5fd937ee5796f87761efcd = $(`<div id="html_69eb02493d5fd937ee5796f87761efcd" style="width: 100.0%; height: 100.0%;"><b>Barranquilla</b><br>Ingresos: $36,768,500<br>Calificación: 4.03</div>`)[0];
+            popup_57e209d174f001e6bc9d04188575ac17.setContent(html_69eb02493d5fd937ee5796f87761efcd);
+        
+
+        circle_marker_b888ac1dc313f6458c06037039ed5114.bindPopup(popup_57e209d174f001e6bc9d04188575ac17)
+        ;
+
+        
+    
+    
+            var circle_marker_6d8631f6f844aa115bdc71a39f4f3549 = L.circleMarker(
+                [4.609710000000001, -74.08175],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_5c7feab1199a8f94f78148132f83597d = L.popup({"maxWidth": 250});
+
+        
+            var html_f1888146f3431d23b547d388a0451edd = $(`<div id="html_f1888146f3431d23b547d388a0451edd" style="width: 100.0%; height: 100.0%;"><b>Bogotá</b><br>Ingresos: $475,562,100<br>Calificación: 4.16</div>`)[0];
+            popup_5c7feab1199a8f94f78148132f83597d.setContent(html_f1888146f3431d23b547d388a0451edd);
+        
+
+        circle_marker_6d8631f6f844aa115bdc71a39f4f3549.bindPopup(popup_5c7feab1199a8f94f78148132f83597d)
+        ;
+
+        
+    
+    
+            var circle_marker_c94003ff8d2b54a6e0d7babc86d37196 = L.circleMarker(
+                [7.1253899999999994, -73.1198],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_e41e7b14da0dec8517279f10b596f19c = L.popup({"maxWidth": 250});
+
+        
+            var html_175df07f407499e5f9bc9dcba1b8491b = $(`<div id="html_175df07f407499e5f9bc9dcba1b8491b" style="width: 100.0%; height: 100.0%;"><b>Bucaramanga</b><br>Ingresos: $23,538,900<br>Calificación: 4.04</div>`)[0];
+            popup_e41e7b14da0dec8517279f10b596f19c.setContent(html_175df07f407499e5f9bc9dcba1b8491b);
+        
+
+        circle_marker_c94003ff8d2b54a6e0d7babc86d37196.bindPopup(popup_e41e7b14da0dec8517279f10b596f19c)
+        ;
+
+        
+    
+    
+            var circle_marker_dc138420a97940c81577d70ecab94978 = L.circleMarker(
+                [3.43722, -76.5225],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_d6cf1ed4c7a14d3904dd702d431f6d19 = L.popup({"maxWidth": 250});
+
+        
+            var html_31723f5e99b164a620f5a2c18cd68a65 = $(`<div id="html_31723f5e99b164a620f5a2c18cd68a65" style="width: 100.0%; height: 100.0%;"><b>Cali</b><br>Ingresos: $109,287,600<br>Calificación: 4.06</div>`)[0];
+            popup_d6cf1ed4c7a14d3904dd702d431f6d19.setContent(html_31723f5e99b164a620f5a2c18cd68a65);
+        
+
+        circle_marker_dc138420a97940c81577d70ecab94978.bindPopup(popup_d6cf1ed4c7a14d3904dd702d431f6d19)
+        ;
+
+        
+    
+    
+            var circle_marker_3e55b73bcc45c11f904c9bc2d4a2fbfc = L.circleMarker(
+                [10.39972, -75.51444],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_0b741553841bffa15a8e9362c7bd925e = L.popup({"maxWidth": 250});
+
+        
+            var html_c460017af832128aa410d27ee95b307d = $(`<div id="html_c460017af832128aa410d27ee95b307d" style="width: 100.0%; height: 100.0%;"><b>Cartagena</b><br>Ingresos: $34,144,100<br>Calificación: 3.91</div>`)[0];
+            popup_0b741553841bffa15a8e9362c7bd925e.setContent(html_c460017af832128aa410d27ee95b307d);
+        
+
+        circle_marker_3e55b73bcc45c11f904c9bc2d4a2fbfc.bindPopup(popup_0b741553841bffa15a8e9362c7bd925e)
+        ;
+
+        
+    
+    
+            var circle_marker_cb8c690781ec78c7af2d5e0149641a79 = L.circleMarker(
+                [7.89391, -72.50782],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_e781e5277464a4084ba34fbb6bbc579d = L.popup({"maxWidth": 250});
+
+        
+            var html_82a5875a657a362da6875f6c8fae86b0 = $(`<div id="html_82a5875a657a362da6875f6c8fae86b0" style="width: 100.0%; height: 100.0%;"><b>Cúcuta</b><br>Ingresos: $25,165,500<br>Calificación: 3.91</div>`)[0];
+            popup_e781e5277464a4084ba34fbb6bbc579d.setContent(html_82a5875a657a362da6875f6c8fae86b0);
+        
+
+        circle_marker_cb8c690781ec78c7af2d5e0149641a79.bindPopup(popup_e781e5277464a4084ba34fbb6bbc579d)
+        ;
+
+        
+    
+    
+            var circle_marker_40d182c4fa6a814baad4628c01c04d1e = L.circleMarker(
+                [3.8653, -67.9239],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_e593b25e4a12aa898bdb670178c98bee = L.popup({"maxWidth": 250});
+
+        
+            var html_c382a2068e39bdd98147b0977ee27901 = $(`<div id="html_c382a2068e39bdd98147b0977ee27901" style="width: 100.0%; height: 100.0%;"><b>Inírida</b><br>Ingresos: $1,333,700<br>Calificación: 3.75</div>`)[0];
+            popup_e593b25e4a12aa898bdb670178c98bee.setContent(html_c382a2068e39bdd98147b0977ee27901);
+        
+
+        circle_marker_40d182c4fa6a814baad4628c01c04d1e.bindPopup(popup_e593b25e4a12aa898bdb670178c98bee)
+        ;
+
+        
+    
+    
+            var circle_marker_d64952e8efc72b7ab18a9407e7699d70 = L.circleMarker(
+                [-4.21528, -69.94056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_6a9b748268f629eba877d86c65b8ed77 = L.popup({"maxWidth": 250});
+
+        
+            var html_c83a70a37b324127a4e3b3f66d7fd1a4 = $(`<div id="html_c83a70a37b324127a4e3b3f66d7fd1a4" style="width: 100.0%; height: 100.0%;"><b>Leticia</b><br>Ingresos: $19,212,800<br>Calificación: 3.76</div>`)[0];
+            popup_6a9b748268f629eba877d86c65b8ed77.setContent(html_c83a70a37b324127a4e3b3f66d7fd1a4);
+        
+
+        circle_marker_d64952e8efc72b7ab18a9407e7699d70.bindPopup(popup_6a9b748268f629eba877d86c65b8ed77)
+        ;
+
+        
+    
+    
+            var circle_marker_391e76678ea67f677651cb99717d1bcc = L.circleMarker(
+                [5.068890000000001, -75.51738],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_5b4bb16ff435ae1daafe9ba13b1a1642 = L.popup({"maxWidth": 250});
+
+        
+            var html_ba393c883c6899f1ce7a6100538a5ebc = $(`<div id="html_ba393c883c6899f1ce7a6100538a5ebc" style="width: 100.0%; height: 100.0%;"><b>Manizales</b><br>Ingresos: $6,501,800<br>Calificación: 3.29</div>`)[0];
+            popup_5b4bb16ff435ae1daafe9ba13b1a1642.setContent(html_ba393c883c6899f1ce7a6100538a5ebc);
+        
+
+        circle_marker_391e76678ea67f677651cb99717d1bcc.bindPopup(popup_5b4bb16ff435ae1daafe9ba13b1a1642)
+        ;
+
+        
+    
+    
+            var circle_marker_f84140a0d112c6e24139ebd141ac3253 = L.circleMarker(
+                [6.25184, -75.56359],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_4c35f824f9002925dc6c008e632b00e8 = L.popup({"maxWidth": 250});
+
+        
+            var html_db2ececf2f75c9496461c8f0723ca5fa = $(`<div id="html_db2ececf2f75c9496461c8f0723ca5fa" style="width: 100.0%; height: 100.0%;"><b>Medellín</b><br>Ingresos: $250,580,600<br>Calificación: 4.00</div>`)[0];
+            popup_4c35f824f9002925dc6c008e632b00e8.setContent(html_db2ececf2f75c9496461c8f0723ca5fa);
+        
+
+        circle_marker_f84140a0d112c6e24139ebd141ac3253.bindPopup(popup_4c35f824f9002925dc6c008e632b00e8)
+        ;
+
+        
+    
+    
+            var circle_marker_95fea487edc1bd512dcef2737143bdf5 = L.circleMarker(
+                [2.9273, -75.28189],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_367dc010a7c8c1b91e0654eb20f6c41a = L.popup({"maxWidth": 250});
+
+        
+            var html_3f719d8c0d548c4e38018e76ff289b52 = $(`<div id="html_3f719d8c0d548c4e38018e76ff289b52" style="width: 100.0%; height: 100.0%;"><b>Neiva</b><br>Ingresos: $4,359,500<br>Calificación: 3.40</div>`)[0];
+            popup_367dc010a7c8c1b91e0654eb20f6c41a.setContent(html_3f719d8c0d548c4e38018e76ff289b52);
+        
+
+        circle_marker_95fea487edc1bd512dcef2737143bdf5.bindPopup(popup_367dc010a7c8c1b91e0654eb20f6c41a)
+        ;
+
+        
+    
+    
+            var circle_marker_b76e271e5b86826bc787732d60d975e5 = L.circleMarker(
+                [1.21361, -77.28111],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_57a466377b42312be4be2030ac7d67eb = L.popup({"maxWidth": 250});
+
+        
+            var html_262729dbdb809c775dccfc8b95fb32cd = $(`<div id="html_262729dbdb809c775dccfc8b95fb32cd" style="width: 100.0%; height: 100.0%;"><b>Pasto</b><br>Ingresos: $6,801,300<br>Calificación: 4.00</div>`)[0];
+            popup_57a466377b42312be4be2030ac7d67eb.setContent(html_262729dbdb809c775dccfc8b95fb32cd);
+        
+
+        circle_marker_b76e271e5b86826bc787732d60d975e5.bindPopup(popup_57a466377b42312be4be2030ac7d67eb)
+        ;
+
+        
+    
+    
+            var circle_marker_f632d963c67b3fe30291703502b0a78e = L.circleMarker(
+                [4.81333, -75.69611],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_d910f1129cb46aed9808d1e72d3b1c12 = L.popup({"maxWidth": 250});
+
+        
+            var html_297b2cf619ef8f2a31ce7f5aa0cae12a = $(`<div id="html_297b2cf619ef8f2a31ce7f5aa0cae12a" style="width: 100.0%; height: 100.0%;"><b>Pereira</b><br>Ingresos: $62,504,500<br>Calificación: 4.04</div>`)[0];
+            popup_d910f1129cb46aed9808d1e72d3b1c12.setContent(html_297b2cf619ef8f2a31ce7f5aa0cae12a);
+        
+
+        circle_marker_f632d963c67b3fe30291703502b0a78e.bindPopup(popup_d910f1129cb46aed9808d1e72d3b1c12)
+        ;
+
+        
+    
+    
+            var circle_marker_e9df29ed0d74709535a32badb3f6dc8d = L.circleMarker(
+                [11.54444, -72.90722],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_fefb9f39b6a1b21ea38611c4384ff042 = L.popup({"maxWidth": 250});
+
+        
+            var html_b32a0d30f4220b6fd3c23e3cf011f919 = $(`<div id="html_b32a0d30f4220b6fd3c23e3cf011f919" style="width: 100.0%; height: 100.0%;"><b>Riohacha</b><br>Ingresos: $19,025,900<br>Calificación: 3.77</div>`)[0];
+            popup_fefb9f39b6a1b21ea38611c4384ff042.setContent(html_b32a0d30f4220b6fd3c23e3cf011f919);
+        
+
+        circle_marker_e9df29ed0d74709535a32badb3f6dc8d.bindPopup(popup_fefb9f39b6a1b21ea38611c4384ff042)
+        ;
+
+        
+    
+    
+            var circle_marker_8c7e52b152bb5d8802849ece09354648 = L.circleMarker(
+                [11.24079, -74.19904],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_c9910a0419be338ed55f19bdb3515d56 = L.popup({"maxWidth": 250});
+
+        
+            var html_647232a191022d696677734e84f6e507 = $(`<div id="html_647232a191022d696677734e84f6e507" style="width: 100.0%; height: 100.0%;"><b>Santa Marta</b><br>Ingresos: $12,854,300<br>Calificación: 3.48</div>`)[0];
+            popup_c9910a0419be338ed55f19bdb3515d56.setContent(html_647232a191022d696677734e84f6e507);
+        
+
+        circle_marker_8c7e52b152bb5d8802849ece09354648.bindPopup(popup_c9910a0419be338ed55f19bdb3515d56)
+        ;
+
+        
+    
+    
+            var circle_marker_1b7cb3a5a4771af8acfa526cfaa95a60 = L.circleMarker(
+                [4.57937, -74.21682],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_1c1c51b823f7f1f95c395e4bcffbf945 = L.popup({"maxWidth": 250});
+
+        
+            var html_69dcc605b346b07452a4c53ddeb1a905 = $(`<div id="html_69dcc605b346b07452a4c53ddeb1a905" style="width: 100.0%; height: 100.0%;"><b>Soacha</b><br>Ingresos: $2,802,000<br>Calificación: 4.00</div>`)[0];
+            popup_1c1c51b823f7f1f95c395e4bcffbf945.setContent(html_69dcc605b346b07452a4c53ddeb1a905);
+        
+
+        circle_marker_1b7cb3a5a4771af8acfa526cfaa95a60.bindPopup(popup_1c1c51b823f7f1f95c395e4bcffbf945)
+        ;
+
+        
+    
+    
+            var circle_marker_2fdfa0c4046642298331720f5a3a812c = L.circleMarker(
+                [10.46314, -73.25322],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_1bb1e3bf379ca732562abb31a2c37c4f = L.popup({"maxWidth": 250});
+
+        
+            var html_afb2124e3f10e9f5f83fa09ccab85302 = $(`<div id="html_afb2124e3f10e9f5f83fa09ccab85302" style="width: 100.0%; height: 100.0%;"><b>Valledupar</b><br>Ingresos: $2,608,200<br>Calificación: 3.33</div>`)[0];
+            popup_1bb1e3bf379ca732562abb31a2c37c4f.setContent(html_afb2124e3f10e9f5f83fa09ccab85302);
+        
+
+        circle_marker_2fdfa0c4046642298331720f5a3a812c.bindPopup(popup_1bb1e3bf379ca732562abb31a2c37c4f)
+        ;
+
+        
+    
+    
+            var circle_marker_2c96d04dc63b8c7031f0b00f8ad7baeb = L.circleMarker(
+                [4.142, -73.62664],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f921f4f37cab20584693650638aeeabe);
+        
+    
+        var popup_030ecdc6d069ff75bf3f5f4e7770bafd = L.popup({"maxWidth": 250});
+
+        
+            var html_f89468551549a891800f4c93faad7ccb = $(`<div id="html_f89468551549a891800f4c93faad7ccb" style="width: 100.0%; height: 100.0%;"><b>Villavicencio</b><br>Ingresos: $988,000<br>Calificación: 4.00</div>`)[0];
+            popup_030ecdc6d069ff75bf3f5f4e7770bafd.setContent(html_f89468551549a891800f4c93faad7ccb);
+        
+
+        circle_marker_2c96d04dc63b8c7031f0b00f8ad7baeb.bindPopup(popup_030ecdc6d069ff75bf3f5f4e7770bafd)
+        ;
+
+        
+    
+    
+            var feature_group_ef0e17757345403b4c5c4efc98ffc4dc = L.featureGroup(
+                {}
+            ).addTo(map_933c12ba7c92b20c4156d38f016a376c);
+        
+    
+            var circle_marker_97266c573aa978cb689aa2cffc8d38e9 = L.circleMarker(
+                [4.53389, -75.68111],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_da0a68670d7d5b922ca5a86d941bec96 = L.popup({"maxWidth": 250});
+
+        
+            var html_a12768784c87a6806dcb2763700b0488 = $(`<div id="html_a12768784c87a6806dcb2763700b0488" style="width: 100.0%; height: 100.0%;"><b>Armenia</b><br>Ingresos: $283,700<br>Calificación: 3.00</div>`)[0];
+            popup_da0a68670d7d5b922ca5a86d941bec96.setContent(html_a12768784c87a6806dcb2763700b0488);
+        
+
+        circle_marker_97266c573aa978cb689aa2cffc8d38e9.bindPopup(popup_da0a68670d7d5b922ca5a86d941bec96)
+        ;
+
+        
+    
+    
+            var circle_marker_1669d0250fb0ab72ef68b621713ff8ff = L.circleMarker(
+                [10.96854, -74.78132],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_f5b8335177998d9fd4fb6602ee3eb709 = L.popup({"maxWidth": 250});
+
+        
+            var html_f836ef36d16e879aa64ff641d59f6f55 = $(`<div id="html_f836ef36d16e879aa64ff641d59f6f55" style="width: 100.0%; height: 100.0%;"><b>Barranquilla</b><br>Ingresos: $34,623,000<br>Calificación: 3.89</div>`)[0];
+            popup_f5b8335177998d9fd4fb6602ee3eb709.setContent(html_f836ef36d16e879aa64ff641d59f6f55);
+        
+
+        circle_marker_1669d0250fb0ab72ef68b621713ff8ff.bindPopup(popup_f5b8335177998d9fd4fb6602ee3eb709)
+        ;
+
+        
+    
+    
+            var circle_marker_ebae5c939acc2109c0b6229187861033 = L.circleMarker(
+                [4.60971, -74.08175],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_ef2bb9e2cf8ac37119b6f5f32eefa240 = L.popup({"maxWidth": 250});
+
+        
+            var html_5defb10c0a3bf593b02360166e6ed63b = $(`<div id="html_5defb10c0a3bf593b02360166e6ed63b" style="width: 100.0%; height: 100.0%;"><b>Bogotá</b><br>Ingresos: $419,332,000<br>Calificación: 4.07</div>`)[0];
+            popup_ef2bb9e2cf8ac37119b6f5f32eefa240.setContent(html_5defb10c0a3bf593b02360166e6ed63b);
+        
+
+        circle_marker_ebae5c939acc2109c0b6229187861033.bindPopup(popup_ef2bb9e2cf8ac37119b6f5f32eefa240)
+        ;
+
+        
+    
+    
+            var circle_marker_6e9b874427bc14115cb3f7968920a759 = L.circleMarker(
+                [7.1253899999999994, -73.1198],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_ff094acb26f5470f1719cc150d33a8f5 = L.popup({"maxWidth": 250});
+
+        
+            var html_1a4bdf61753243cbeb17a7a0ecc35e74 = $(`<div id="html_1a4bdf61753243cbeb17a7a0ecc35e74" style="width: 100.0%; height: 100.0%;"><b>Bucaramanga</b><br>Ingresos: $25,559,600<br>Calificación: 4.06</div>`)[0];
+            popup_ff094acb26f5470f1719cc150d33a8f5.setContent(html_1a4bdf61753243cbeb17a7a0ecc35e74);
+        
+
+        circle_marker_6e9b874427bc14115cb3f7968920a759.bindPopup(popup_ff094acb26f5470f1719cc150d33a8f5)
+        ;
+
+        
+    
+    
+            var circle_marker_c3be99bfdb041bfc120e6e4a11f2a9e1 = L.circleMarker(
+                [3.43722, -76.5225],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_efb98c196d97ff2b6612aea9b5709bcd = L.popup({"maxWidth": 250});
+
+        
+            var html_977831700b86a55a34acb59aa759b7f9 = $(`<div id="html_977831700b86a55a34acb59aa759b7f9" style="width: 100.0%; height: 100.0%;"><b>Cali</b><br>Ingresos: $124,487,200<br>Calificación: 3.93</div>`)[0];
+            popup_efb98c196d97ff2b6612aea9b5709bcd.setContent(html_977831700b86a55a34acb59aa759b7f9);
+        
+
+        circle_marker_c3be99bfdb041bfc120e6e4a11f2a9e1.bindPopup(popup_efb98c196d97ff2b6612aea9b5709bcd)
+        ;
+
+        
+    
+    
+            var circle_marker_8ec99eff84c5549f7a36588c1e80c15e = L.circleMarker(
+                [10.39972, -75.51444],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_6b8a8754d79d684dd4f6b8d4a623a441 = L.popup({"maxWidth": 250});
+
+        
+            var html_a0a350daf978ef9656d8b4227687afbb = $(`<div id="html_a0a350daf978ef9656d8b4227687afbb" style="width: 100.0%; height: 100.0%;"><b>Cartagena</b><br>Ingresos: $24,387,600<br>Calificación: 4.10</div>`)[0];
+            popup_6b8a8754d79d684dd4f6b8d4a623a441.setContent(html_a0a350daf978ef9656d8b4227687afbb);
+        
+
+        circle_marker_8ec99eff84c5549f7a36588c1e80c15e.bindPopup(popup_6b8a8754d79d684dd4f6b8d4a623a441)
+        ;
+
+        
+    
+    
+            var circle_marker_cb00ae18cca1bfcc23b80d06c8df87b2 = L.circleMarker(
+                [7.89391, -72.50782],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_a2f0b9a936e9565061057848f0836f2c = L.popup({"maxWidth": 250});
+
+        
+            var html_ae1830986be593e6c59e7f6ca687a149 = $(`<div id="html_ae1830986be593e6c59e7f6ca687a149" style="width: 100.0%; height: 100.0%;"><b>Cúcuta</b><br>Ingresos: $7,332,600<br>Calificación: 4.00</div>`)[0];
+            popup_a2f0b9a936e9565061057848f0836f2c.setContent(html_ae1830986be593e6c59e7f6ca687a149);
+        
+
+        circle_marker_cb00ae18cca1bfcc23b80d06c8df87b2.bindPopup(popup_a2f0b9a936e9565061057848f0836f2c)
+        ;
+
+        
+    
+    
+            var circle_marker_4f88f6c9a2c85e04e0825a4a8fe622e5 = L.circleMarker(
+                [3.8653, -67.9239],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_e119859ae8661db04723756c6fcf0864 = L.popup({"maxWidth": 250});
+
+        
+            var html_8efda0b56d177a56b3019f3a6fe7aeb3 = $(`<div id="html_8efda0b56d177a56b3019f3a6fe7aeb3" style="width: 100.0%; height: 100.0%;"><b>Inírida</b><br>Ingresos: $1,527,100<br>Calificación: 3.67</div>`)[0];
+            popup_e119859ae8661db04723756c6fcf0864.setContent(html_8efda0b56d177a56b3019f3a6fe7aeb3);
+        
+
+        circle_marker_4f88f6c9a2c85e04e0825a4a8fe622e5.bindPopup(popup_e119859ae8661db04723756c6fcf0864)
+        ;
+
+        
+    
+    
+            var circle_marker_9f4181042894073bc3a121737da9ab40 = L.circleMarker(
+                [-4.21528, -69.94056],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_2af8563e86813f4327d46449d324175c = L.popup({"maxWidth": 250});
+
+        
+            var html_323aa8adea5153b4ad46d0726624ce1d = $(`<div id="html_323aa8adea5153b4ad46d0726624ce1d" style="width: 100.0%; height: 100.0%;"><b>Leticia</b><br>Ingresos: $17,108,300<br>Calificación: 3.83</div>`)[0];
+            popup_2af8563e86813f4327d46449d324175c.setContent(html_323aa8adea5153b4ad46d0726624ce1d);
+        
+
+        circle_marker_9f4181042894073bc3a121737da9ab40.bindPopup(popup_2af8563e86813f4327d46449d324175c)
+        ;
+
+        
+    
+    
+            var circle_marker_8ac0bca41041d2346124e8fca92bddbf = L.circleMarker(
+                [5.06889, -75.51738],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_de69341cbeadbc140c0bef0b99de13e3 = L.popup({"maxWidth": 250});
+
+        
+            var html_2198903d76ca7ce8b6780809330a777e = $(`<div id="html_2198903d76ca7ce8b6780809330a777e" style="width: 100.0%; height: 100.0%;"><b>Manizales</b><br>Ingresos: $1,298,600<br>Calificación: 3.33</div>`)[0];
+            popup_de69341cbeadbc140c0bef0b99de13e3.setContent(html_2198903d76ca7ce8b6780809330a777e);
+        
+
+        circle_marker_8ac0bca41041d2346124e8fca92bddbf.bindPopup(popup_de69341cbeadbc140c0bef0b99de13e3)
+        ;
+
+        
+    
+    
+            var circle_marker_e66809929d5e8e29093a20273bdf562b = L.circleMarker(
+                [6.25184, -75.56359],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_8ff4d5ff2fc1c96c3385d34e488005db = L.popup({"maxWidth": 250});
+
+        
+            var html_e35981433e560a7318a430d1a41ef52e = $(`<div id="html_e35981433e560a7318a430d1a41ef52e" style="width: 100.0%; height: 100.0%;"><b>Medellín</b><br>Ingresos: $251,983,800<br>Calificación: 3.92</div>`)[0];
+            popup_8ff4d5ff2fc1c96c3385d34e488005db.setContent(html_e35981433e560a7318a430d1a41ef52e);
+        
+
+        circle_marker_e66809929d5e8e29093a20273bdf562b.bindPopup(popup_8ff4d5ff2fc1c96c3385d34e488005db)
+        ;
+
+        
+    
+    
+            var circle_marker_82547e4f46ac62b95e80c927a361c7e3 = L.circleMarker(
+                [2.9273, -75.28189],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_faa585f36f966676c94350b75e148d84 = L.popup({"maxWidth": 250});
+
+        
+            var html_1e427f6e65393973817208e4069eebab = $(`<div id="html_1e427f6e65393973817208e4069eebab" style="width: 100.0%; height: 100.0%;"><b>Neiva</b><br>Ingresos: $9,205,100<br>Calificación: 3.61</div>`)[0];
+            popup_faa585f36f966676c94350b75e148d84.setContent(html_1e427f6e65393973817208e4069eebab);
+        
+
+        circle_marker_82547e4f46ac62b95e80c927a361c7e3.bindPopup(popup_faa585f36f966676c94350b75e148d84)
+        ;
+
+        
+    
+    
+            var circle_marker_4dd74f5ae2dcfa6d29972c551ef54850 = L.circleMarker(
+                [1.21361, -77.28111],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_19a584bb5d2449f81263277ec72e789f = L.popup({"maxWidth": 250});
+
+        
+            var html_6f5395d7e9926c206d211b61a71bd857 = $(`<div id="html_6f5395d7e9926c206d211b61a71bd857" style="width: 100.0%; height: 100.0%;"><b>Pasto</b><br>Ingresos: $14,416,500<br>Calificación: 4.20</div>`)[0];
+            popup_19a584bb5d2449f81263277ec72e789f.setContent(html_6f5395d7e9926c206d211b61a71bd857);
+        
+
+        circle_marker_4dd74f5ae2dcfa6d29972c551ef54850.bindPopup(popup_19a584bb5d2449f81263277ec72e789f)
+        ;
+
+        
+    
+    
+            var circle_marker_07e2dc6eb9a292d32eb7299f0252edf7 = L.circleMarker(
+                [4.81333, -75.69611],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_5c56c07260bc9459512698512c138005 = L.popup({"maxWidth": 250});
+
+        
+            var html_2d59eaf70181adf177189ce86bceb360 = $(`<div id="html_2d59eaf70181adf177189ce86bceb360" style="width: 100.0%; height: 100.0%;"><b>Pereira</b><br>Ingresos: $64,134,700<br>Calificación: 4.11</div>`)[0];
+            popup_5c56c07260bc9459512698512c138005.setContent(html_2d59eaf70181adf177189ce86bceb360);
+        
+
+        circle_marker_07e2dc6eb9a292d32eb7299f0252edf7.bindPopup(popup_5c56c07260bc9459512698512c138005)
+        ;
+
+        
+    
+    
+            var circle_marker_1a857073d8d809251d28fceaa6f2f11a = L.circleMarker(
+                [11.54444, -72.90722],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_6f10f2c4078913410d7180684c20a1d4 = L.popup({"maxWidth": 250});
+
+        
+            var html_30b2b255bd54dbb55c0f54cd4b5a8731 = $(`<div id="html_30b2b255bd54dbb55c0f54cd4b5a8731" style="width: 100.0%; height: 100.0%;"><b>Riohacha</b><br>Ingresos: $23,684,700<br>Calificación: 4.11</div>`)[0];
+            popup_6f10f2c4078913410d7180684c20a1d4.setContent(html_30b2b255bd54dbb55c0f54cd4b5a8731);
+        
+
+        circle_marker_1a857073d8d809251d28fceaa6f2f11a.bindPopup(popup_6f10f2c4078913410d7180684c20a1d4)
+        ;
+
+        
+    
+    
+            var circle_marker_e91025730fef90252e2ce34373a0ba72 = L.circleMarker(
+                [11.24079, -74.19904],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_7ac22b7e2b665a66f22c125671aac6d0 = L.popup({"maxWidth": 250});
+
+        
+            var html_6551a845c712553ae4c1d18d0655cb46 = $(`<div id="html_6551a845c712553ae4c1d18d0655cb46" style="width: 100.0%; height: 100.0%;"><b>Santa Marta</b><br>Ingresos: $13,218,600<br>Calificación: 3.54</div>`)[0];
+            popup_7ac22b7e2b665a66f22c125671aac6d0.setContent(html_6551a845c712553ae4c1d18d0655cb46);
+        
+
+        circle_marker_e91025730fef90252e2ce34373a0ba72.bindPopup(popup_7ac22b7e2b665a66f22c125671aac6d0)
+        ;
+
+        
+    
+    
+            var circle_marker_fe1bdbb5c1a0f48c9e108ce9441d66ab = L.circleMarker(
+                [4.57937, -74.21682],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_77ae8acff2f646d758a782a0c6e47097 = L.popup({"maxWidth": 250});
+
+        
+            var html_747a591fc56786328b4d38ba6d2b7a8a = $(`<div id="html_747a591fc56786328b4d38ba6d2b7a8a" style="width: 100.0%; height: 100.0%;"><b>Soacha</b><br>Ingresos: $3,149,000<br>Calificación: 4.50</div>`)[0];
+            popup_77ae8acff2f646d758a782a0c6e47097.setContent(html_747a591fc56786328b4d38ba6d2b7a8a);
+        
+
+        circle_marker_fe1bdbb5c1a0f48c9e108ce9441d66ab.bindPopup(popup_77ae8acff2f646d758a782a0c6e47097)
+        ;
+
+        
+    
+    
+            var circle_marker_71e75d57abd35bc7dff999b25461af20 = L.circleMarker(
+                [10.46314, -73.25322],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_5c476f5f25e15aaa9976ba1ff2452bd8 = L.popup({"maxWidth": 250});
+
+        
+            var html_0cce50d6e0e91aeaed2f35e9b94297ab = $(`<div id="html_0cce50d6e0e91aeaed2f35e9b94297ab" style="width: 100.0%; height: 100.0%;"><b>Valledupar</b><br>Ingresos: $1,057,000<br>Calificación: 5.00</div>`)[0];
+            popup_5c476f5f25e15aaa9976ba1ff2452bd8.setContent(html_0cce50d6e0e91aeaed2f35e9b94297ab);
+        
+
+        circle_marker_71e75d57abd35bc7dff999b25461af20.bindPopup(popup_5c476f5f25e15aaa9976ba1ff2452bd8)
+        ;
+
+        
+    
+    
+            var circle_marker_2a2010ff510e20d6a932a3315d16b52b = L.circleMarker(
+                [4.142, -73.62664],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ef0e17757345403b4c5c4efc98ffc4dc);
+        
+    
+        var popup_83056b2e067095fb6ccfc2e6ad820b62 = L.popup({"maxWidth": 250});
+
+        
+            var html_14ca93f9273f2bc4bebef58a88862719 = $(`<div id="html_14ca93f9273f2bc4bebef58a88862719" style="width: 100.0%; height: 100.0%;"><b>Villavicencio</b><br>Ingresos: $1,586,600<br>Calificación: 3.29</div>`)[0];
+            popup_83056b2e067095fb6ccfc2e6ad820b62.setContent(html_14ca93f9273f2bc4bebef58a88862719);
+        
+
+        circle_marker_2a2010ff510e20d6a932a3315d16b52b.bindPopup(popup_83056b2e067095fb6ccfc2e6ad820b62)
+        ;
+
+        
+    
+    
+            var layer_control_3db6896f4f30f7a5e1762bd94e809762 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_cd4884de00c1be3453242a7a090417a5,
+                },
+                overlays :  {
+                    "Tienda 1 - Rendimiento por Ciudad" : feature_group_447822b3cf6a14ef0df3dcdf11707d64,
+                    "Tienda 2 - Rendimiento por Ciudad" : feature_group_055f5abc38011118f49d7b83d39c6bc5,
+                    "Tienda 3 - Rendimiento por Ciudad" : feature_group_f921f4f37cab20584693650638aeeabe,
+                    "Tienda 4 - Rendimiento por Ciudad" : feature_group_ef0e17757345403b4c5c4efc98ffc4dc,
+                },
+            };
+            L.control.layers(
+                layer_control_3db6896f4f30f7a5e1762bd94e809762.base_layers,
+                layer_control_3db6896f4f30f7a5e1762bd94e809762.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_933c12ba7c92b20c4156d38f016a376c);
+        
+</script>
+</html>
