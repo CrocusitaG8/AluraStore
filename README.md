@@ -1,7 +1,3 @@
-# Contenido del README.md
-readme_content = """
-# Análisis de Rendimiento de Tiendas - Proyecto Desafío 1 Python
-
 ## 🎯 Propósito del Análisis
 
 Este proyecto tiene como objetivo analizar el desempeño de cuatro tiendas propiedad del Sr. Juan,
