@@ -9,7 +9,7 @@ Se realizaron análisis de facturación, productos, calificaciones, costos y com
 ## 📁 Estructura del Proyecto
 
 - `tienda_1.csv` a `tienda_4.csv`: Datos de ventas de cada tienda.
-- `AluraStoreLatam2.ipynb`: Notebook principal con todos los análisis y visualizaciones.
+- `AluraStoreLatam.ipynb`: Notebook principal con todos los análisis y visualizaciones.
 - `mapa.html`: Mapa de calor interactivo con concentración de ventas por tienda.
 - `mapa_ciudades.html`: Mapa con marcadores por ciudad con información de ingresos y calificaciones.
 - `README.md`: Descripción del proyecto y cómo ejecutarlo.
